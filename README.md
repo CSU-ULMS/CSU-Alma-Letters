@@ -20,6 +20,11 @@ this doesn't affect the end result, it's just kinda annoying to work with,
 and makes you wonder if the application code is written using the same amount
 of carelessness. Hopefully not.
 
+### Letters Customizations
+
+The XLST/Letters task force determined that only letters sent to patrons would be customized at
+implementation.  
+
 ### Letters usage
 
 Some letters are used much more than others, and should be prioritized. A sample
