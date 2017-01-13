@@ -1,10 +1,7 @@
 
 This is a collection of the XSL files used to generate letters and slips in
-Alma, as customized by the University of Oslo Library. In general, we try to
+Alma.  In general, we try to
 make the files re-usable by others, but we fail in some cases.
-
-We also have a Python script for synchronizing the files with Alma at
-https://github.com/scriptotek/alma-slipsomat
 
 ## Overview of the .xsl files
 
@@ -95,73 +92,6 @@ Quick overview of new templates we've added:
 In the other template files we've only done smaller modifications to the
 existing templates.
 
-## Utskriftsløsning
-
-USIT har opprettet egne epost-adresser for for alle kønavnene for printerne det
-skal skrives til. Postmaster har konfigurert det slik at epost sendt til disse
-adressene sendes direkte til et enkelt Bash-script, som skriver HTML-teksten fra
-e-postene til disk og kaller html2ps for å konvertere fra HTML til PostScript,
-som så sendes til riktig printerkø basert på hvilke adresse e-posten ble sendt til.
-
-Fordeler med løsningen inkluderer at det går kjapt (utskriftene kommer "umiddelbart"
-når man trykker "Print slip") og at det er en enkel løsning å drifte. En ulempe med
-løsningen er at html2ps ikke støtter CSS, så vi kan bare gjøre enkel formatering.
-
-## Spesielle elementer
-
-### Libnummer (norsk ISIL-kode)
-
-Tre av sedlene brukes som sendelapper mellom bibliotek og har derfor libnummer
-nederst. Nummeret må plasseres i en fast avstand fra bunnen av arket fordi det
-skal være synlig i vinduskonvolutter for sending av dokumenter. For sending av
-bøker stikkes sedlene i bøkene slik at arket stikker ut på bunnen av boka med
-libummeret synlig.
-
-* `FulReasourceRequestSlipLetter`: Utlån til folkebibliotek og andre bibliotek
-  som ikke bruker Alma. Libnummer hentes fra
-  `notification_data/user_for_printing/identifiers/code_value[1]/value`.
-* `ResourceSharingShippingSlipLetter`: Utlån til annet Alma-bibliotek basert
-  på bestilling (*lending requests*). Libnummer hentes fra
-  `notification_data/partner_shipping_info_list/partner_shipping_info[1]/address5`
-  * Merk: `FulIncomingSlipLetter` (også kjent som `Resource sharing Lending
-    Slip Letter`) ligner ganske mye på `ResourceSharingShippingSlipLetter`, og
-    mange tror derfor denne kan brukes som sendeseddel for artikkelkopier –
-    men denne mangler libnummer og adresseinformasjon og er nok ikke ment som
-    det. Når bestillingen har fått status `Shipped` får man ut en
-    `ResourceSharingShippingSlipLetter` som brukes som sendelapp. Gå til ship
-    item via almamenyen, velg ship non returnable og huk av for automatisk
-    slip. Eller trykk ‘print slip’ etter man har valgt ‘ship item’, ‘ship non
-    returnable’ e.l.
-* `FulTransitSlipLetter`: Sendelapp internt på UBO. Her har vi en hardkodet
-  mapping fra `calculated_destination_name` til libnummer fordi libnummeret
-  ikke er tilgjengelig i XML-dataene og lista over mottakere er overkommelig å
-  vedlikeholde manuelt (mens vi venter på en bedre løsning).
-
-For å få plassert libnummeret i en fast avstand fra bunnen av arket har vi
-konfigurert html2ps
-([dokumentasjon](http://user.it.uu.se/~jan/html2psug.html)) til å legge
-innhold fra meta-taggen `libnummer` i bunntekst (footer):
-
-```
-@html2ps{
-    footer {
-      left: "$[libnummer]";
-      center: " ";  /* override default value */
-      right: "$[address]";
-      font-size: 48pt;
-    }
-}
-@page {
-   margin-left: 2cm;
-   margin-right: 3cm;
-   margin-top: 0;
-   margin-bottom: 6cm;
-}
-```
-
-html2ps-oppsettet driftes av USITs [gruppe for drift av meldingstjenester](http://www.usit.uio.no/om/organisasjon/it-drift/kd/gmt/index.html). For å gjøre endringer i konfigurasjonen sender vi epost til postmaster at rt.uio.no der vi beskriver endringene – det har gått greit så langt, de svarer raskt.
-
-Eksempel på en meta-tagg: `<meta name="libnummer" content="103 0310"/>`.
 
 
 ## Tips
