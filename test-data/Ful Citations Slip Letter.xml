@@ -1,0 +1,52 @@
+<notification_data>
+<general_data><address_from>Your.Department@nomail_organization.com</address_from>
+<current_date>30/11/2014</current_date>
+<letter_channel_info></letter_channel_info>
+<letter_name>Citations Report</letter_name> <letter_type>FulCitationsSlipLetter</letter_type>
+<subject>Course Citations Report</subject> </general_data> <languages><string>en</string> <string>fr</string> <string>nl</string> </languages> <letter_params></letter_params> <letter_texts></letter_texts> <message>The citation report file is attached.</message> <organization_unit><address></address>
+<automatically_activate_locate_profile>false</automatically_activate_locate_profile>
+<automatically_locate_resource>false</automatically_locate_resource>
+<cancel_request_on_locate_failure>false</cancel_request_on_locate_failure>
+<code>01UNI_INST</code>
+<create_date></create_date>
+<default_acq_loctaion_id></default_acq_loctaion_id>
+<default_item_loctaion_id></default_item_loctaion_id>
+<default_move_loctaion_id></default_move_loctaion_id>
+<default_pickup_loctaion_id></default_pickup_loctaion_id>
+<description>University Libraries</description> <edi_code>BOC-GEN</edi_code> <edi_type>091</edi_type> <email></email> <entity_action></entity_action> <itemless_library></itemless_library>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+<name>University Libraries</name>
+<org_scope><customer_id>9998</customer_id>
+<institution_id>9999</institution_id>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+</org_scope>
+<organization_id>9999</organization_id>
+<organization_path>9998.9999</organization_path>
+<organization_type>INSTITUTION</organization_type>
+<parent_org_id>9998</parent_org_id>
+<path>01UNI.01UNI_INST</path>
+<phone></phone>
+<resource_sharing_library>false</resource_sharing_library>
+<status>ACTIVE</status>
+<support_code></support_code>
+</organization_unit>
+<receivers><receiver><attached_to_entity_id>14430357340009999</attached_to_entity_id>
+<params></params>
+<printer><code>AutoFul</code>
+<create_date>25/11/2014</create_date>
+<description>A printer for Automatic tests</description> <email>auto.tester.mail@nomail.com</email>
+<entity_action></entity_action>
+<library_id>31589510009999</library_id>
+<library_unit_id></library_unit_id>
+<name>AutoFul</name>
+</printer>
+<receiver_id></receiver_id>
+<receiver_type></receiver_type>
+<receiver_type_class>com.exlibris.core.infra.model.HPrinter</receiver_type_class>
+</receiver>
+</receivers>
+<send_after_commit>true</send_after_commit>
+<throw_exceptions>false</throw_exceptions>
+</notification_data>

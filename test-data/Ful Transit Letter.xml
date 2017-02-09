@@ -1,0 +1,213 @@
+<notification_data>
+<attachments_list></attachments_list>
+<general_data><address_from>Your.Department@nomail_organization.com</address_from>
+<current_date>26/11/2014</current_date>
+<letter_channel_info></letter_channel_info>
+<letter_name>Transit Letter</letter_name> <letter_type>FulTransitSlipLetter</letter_type>
+<subject>Transit Letter</subject>
+</general_data>
+<languages><string>en</string>
+<string>fr</string>
+<string>nl</string>
+</languages>
+<letter_params></letter_params>
+<letter_texts></letter_texts>
+<organization_unit><address><city>Springfield</city> <country>USA</country> <country_display>United States</country_display> <create_date>13/03/2013</create_date>
+<entity_action></entity_action>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+<line1>University Libraries</line1>
+<line2>123 Oakville Street</line2>
+<line3></line3>
+<line4></line4>
+<line5></line5>
+<note></note>
+<originating_id></originating_id>
+<postal_code>02467</postal_code>
+<preferred>true</preferred>
+<segment_types_display><string>Patron Communications</string> </segment_types_display> <state_province>IL</state_province>
+<user_address_types_display></user_address_types_display>
+</address>
+<automatically_activate_locate_profile>false</automatically_activate_locate_profile>
+<automatically_locate_resource>false</automatically_locate_resource>
+<cancel_request_on_locate_failure>false</cancel_request_on_locate_failure>
+<code>ILIN</code>
+<create_date>17/10/2011</create_date>
+<default_acq_loctaion_id>31601400009999</default_acq_loctaion_id>
+<default_item_loctaion_id></default_item_loctaion_id>
+<default_move_loctaion_id></default_move_loctaion_id>
+<default_pickup_loctaion_id></default_pickup_loctaion_id>
+<description></description>
+<edi_code>BOC-BLO</edi_code>
+<edi_type>091</edi_type>
+<email><create_date>07/12/2011</create_date>
+<description></description>
+<email>nosuchmail@nomail_no.such.mail.com</email>
+<entity_action></entity_action>
+<external_id></external_id>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+<originating_id></originating_id>
+<preferred>true</preferred>
+</email>
+<entity_action></entity_action>
+<itemless_library></itemless_library>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+<name>Main Library</name>
+<org_scope><customer_id>9998</customer_id>
+<institution_id>9999</institution_id>
+<library_id>31589510009999</library_id>
+<library_unit_id></library_unit_id>
+</org_scope>
+<organization_id>31589510009999</organization_id>
+<organization_path>9998.9999.31589510009999</organization_path>
+<organization_type>LIBRARY</organization_type>
+<parent_org_id>9999</parent_org_id>
+<path>01UNI.01UNI_INST.ILIN</path>
+<phone><create_date>07/12/2011</create_date>
+<entity_action></entity_action>
+<external_id></external_id>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+<originating_id></originating_id>
+<phone>555-755-0099</phone>
+<preferred>false</preferred>
+<preferred_phone></preferred_phone>
+<preferred_sms></preferred_sms>
+</phone>
+<resource_sharing_library>true</resource_sharing_library>
+<status>ACTIVE</status>
+<support_code></support_code>
+</organization_unit>
+<phys_item_display><accession_number></accession_number>
+<alt_call_number_type>0</alt_call_number_type>
+<attachments></attachments>
+<author>Symeonidis, Andreas L.</author>
+<barcode>2611142053WorkOrder</barcode>
+<call_number>QA76.9.D343 S935 2005</call_number> <call_number_type>0</call_number_type>
+<chron_i></chron_i>
+<chron_j></chron_j>
+<chron_k></chron_k>
+<chron_l></chron_l>
+<chron_m></chron_m>
+<copy_id></copy_id>
+<destination_name></destination_name>
+<display_alt_call_numbers></display_alt_call_numbers>
+<edition></edition>
+<enum_a></enum_a>
+<enum_b></enum_b>
+<enum_c></enum_c>
+<enum_d></enum_d>
+<enum_e></enum_e>
+<enum_f></enum_f>
+<enum_g></enum_g>
+<enum_h></enum_h>
+<fulfillment_note></fulfillment_note>
+<imprint>New York : Springer/ 2005.</imprint> <internal_note1></internal_note1> <internal_note2></internal_note2> <internal_note3></internal_note3> <inventory_material_type>Book</inventory_material_type>
+<isbn>9780387257570 (electronic bk.)</isbn> <issn></issn> <issue_level_description></issue_level_description>
+<library_code>ILIN</library_code>
+<library_name>Main Library</library_name>
+<location_code>2611142040</location_code>
+<location_name>2611142040primary</location_name>
+<material_type>Book</material_type>
+<owning_library_details><address1>University Libraries</address1>
+<address2>123 Oakville Street</address2> <address3></address3> <address4></address4> <address5></address5> <city>Springfield</city> <country>USA</country> <email>nosuchmail@nomail_no.such.mail.com</email>
+<identifiers></identifiers>
+<name>Main Library</name>
+<phone>617-552-8038 </phone>
+<postal_code>02467</postal_code>
+<state>IL</state>
+<title></title>
+<user_group></user_group>
+</owning_library_details>
+<owning_library_id>31589510009999</owning_library_id>
+<owning_library_name>Main Library</owning_library_name>
+<parsed_alt_call_number></parsed_alt_call_number>
+<parsed_call_number></parsed_call_number>
+<parsed_issue_level_description></parsed_issue_level_description>
+<permanent_library></permanent_library>
+<permanent_location></permanent_location>
+<public_note></public_note>
+<publication_date>2005.</publication_date>
+<publication_place>New York :</publication_place> <publisher>Springer/</publisher> <row_call_number>$$h QA76.9.D343$$i S935 2005</row_call_number> <shelving_location></shelving_location>
+<title>2611142053WorkOrder</title>
+<title_abcnph>2611142053WorkOrder by Andreas L. Symeonidis, Pericles A. Mitkas. [electronic resource] /</title_abcnph> </phys_item_display> <receivers><receiver><attached_to_entity_id>14430357340009999</attached_to_entity_id>
+<params></params>
+<printer><code>AutoFul</code>
+<create_date>25/11/2014</create_date>
+<description>A printer for Automatic tests</description> <email>auto.tester.mail@nomail.com</email>
+<entity_action></entity_action>
+<library_id>31589510009999</library_id>
+<library_unit_id></library_unit_id>
+<name>AutoFul</name>
+</printer>
+<receiver_id></receiver_id>
+<receiver_type></receiver_type>
+<receiver_type_class>com.exlibris.core.infra.model.HPrinter</receiver_type_class>
+</receiver>
+</receivers>
+<request><active>true</active>
+<all_org_fields></all_org_fields>
+<assigned_unit_name>Main Library - 2611142043primaryDesk</assigned_unit_name>
+<bulk_request>false</bulk_request>
+<calculated_destination_name>University Libraries - 2611142130WorkOrderDepartment</calculated_destination_name>
+<cancel_reason></cancel_reason>
+<cause_for_recalled_item>false</cause_for_recalled_item>
+<create_date>26/11/2014</create_date>
+<create_time>21:37:49 PM IST</create_time> <deposit_indicator></deposit_indicator>
+<document_delivery_email></document_delivery_email>
+<due_back_date_updated>false</due_back_date_updated>
+<end_time></end_time>
+<end_time_dummy></end_time_dummy>
+<entity_action></entity_action>
+<last_interest_date></last_interest_date>
+<library_id>31589510009999</library_id>
+<library_unit_id></library_unit_id>
+<manual_description></manual_description>
+<material_type_display>Book</material_type_display>
+<needs_hold_shelf_processing>false</needs_hold_shelf_processing>
+<pickup>false</pickup>
+<note></note>
+<original_end_time></original_end_time>
+<original_start_time></original_start_time>
+<originating_mms_key></originating_mms_key>
+<originating_user_key></originating_user_key>
+<partial_digitization></partial_digitization>
+<remote_digitize_indicator></remote_digitize_indicator>
+<request_not_needed>false</request_not_needed>
+<resource_sharing_request_id></resource_sharing_request_id>
+<resource_slip_printed>true</resource_slip_printed>
+<resource_slip_reported>false</resource_slip_reported>
+<search_type>PHYSICAL_ITEM</search_type>
+<selected_inventory_id>23440683550009999</selected_inventory_id>
+<selected_inventory_type>ITEM</selected_inventory_type>
+<start_time></start_time>
+<start_time_dummy></start_time_dummy>
+<status_note></status_note>
+<status_note_display></status_note_display>
+<system_notes></system_notes>
+<volume_issue></volume_issue>
+<work_flow_entity><action_date>26/11/2014</action_date>
+<assigned_unit_id>14433056240009999</assigned_unit_id>
+<assigned_unit_type>CIRCULATION_DESK</assigned_unit_type>
+<calculated_destination_id>14433445720009999</calculated_destination_id>
+<calculated_destination_type>SERVICE_UNIT</calculated_destination_type>
+<create_date>26/11/2014</create_date>
+<entity_action></entity_action>
+<estimated_arrival_date>27/11/2014</estimated_arrival_date>
+<expiration_date>27/11/2014</expiration_date>
+<expiration_date_to_end_of_day></expiration_date_to_end_of_day>
+<transit>true</transit>
+<work_order_department>false</work_order_department>
+<library_id>31589510009999</library_id>
+<library_unit_id></library_unit_id>
+<step_type>OUT_OF_LIBRARY</step_type>
+<user_id></user_id>
+</work_flow_entity>
+</request>
+<send_after_commit>true</send_after_commit>
+<throw_exceptions>false</throw_exceptions>
+<url_list></url_list>
+<user_for_printing></user_for_printing>
+</notification_data>

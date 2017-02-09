@@ -1,21 +1,25 @@
 <notification_data>
 	<attachments_list/>
+	<destination>Main Library Acquisitions/Receiving</destination>
+	<external_id/>
 	<general_data>
 		<address_c>None</address_c>
 		<address_c>None</address_c>
 		<address_from>Your.Department@organization.com</address_from>
 		<current_date>12/07/2016</current_date>
 		<letter_channel_info/>
-		<letter_name>Transit Letter</letter_name>
-		<letter_type>FulTransitSlipLetter</letter_type>
-		<subject>Transit Letter</subject>
+		<letter_name>Resource Request Slip Letter</letter_name>
+		<letter_type>FulReasourceRequestSlipLetter</letter_type>
+		<subject>Resource Request Slip</subject>
 	</general_data>
+	<incoming_request/>
 	<languages>
 		<string>en</string>
 	</languages>
 	<letter_params/>
 	<letter_texts/>
 	<loans_by_library/>
+	<metadata/>
 	<organization_unit>
 		<address>
 			<city>Maintown</city>
@@ -221,18 +225,18 @@
 	</phys_item_display>
 	<receivers>
 		<receiver>
-			<attached_to_entity_id>88323970000521</attached_to_entity_id>
+			<attached_to_entity_id>63362950000521</attached_to_entity_id>
 			<params/>
 			<preferred_language/>
 			<printer>
-				<code>chen</code>
-				<create_date>06/20/2014</create_date>
-				<description/>
-				<email>chen.marckfeld@exlibrisgroup.com</email>
+				<code>MLIB_PRNT</code>
+				<create_date>08/06/2013</create_date>
+				<description>Epson, located near the Circ Desk</description>
+				<email>mnlib@university.edu</email>
 				<entity_action/>
 				<library_id>13641560000541</library_id>
 				<library_unit_id/>
-				<name>chen printer</name>
+				<name>Main Library Printer</name>
 			</printer>
 			<receiver_id/>
 			<receiver_type/>
@@ -244,7 +248,7 @@
 		<all_org_fields/>
 		<approval_entity/>
 		<approval_management/>
-		<assigned_unit_name>Main Library - Main Library Circulation</assigned_unit_name>
+		<assigned_unit_name>Main Library - Main Library Acquisitions/Receiving</assigned_unit_name>
 		<author/>
 		<author_display/>
 		<bulk_request>false</bulk_request>
@@ -257,7 +261,7 @@
 		<copyright_declaration_signed/>
 		<copyright_source/>
 		<create_date>12/07/2016</create_date>
-		<create_time>04:15:34 PST</create_time>
+		<create_time>04:17:01 PST</create_time>
 		<date_available_from/>
 		<date_available_from_dummy>
 			<calendar>12/31/1969</calendar>
@@ -958,24 +962,26 @@
 		<volume_issue/>
 		<work_flow_entity>
 			<action_date>12/07/2016</action_date>
-			<assigned_unit_id>13641580000541</assigned_unit_id>
-			<assigned_unit_type>CIRCULATION_DESK</assigned_unit_type>
+			<assigned_unit_id>13641720000541</assigned_unit_id>
+			<assigned_unit_type>SERVICE_UNIT</assigned_unit_type>
 			<calculated_destination_id>13641720000541</calculated_destination_id>
 			<calculated_destination_type>SERVICE_UNIT</calculated_destination_type>
 			<create_date>12/07/2016</create_date>
 			<destination_institution_code/>
 			<entity_action/>
 			<estimated_arrival_date>12/07/2016</estimated_arrival_date>
-			<expiration_date>12/07/2016</expiration_date>
+			<expiration_date>12/09/2016</expiration_date>
 			<expiration_date_to_end_of_day/>
-			<transit>true</transit>
-			<work_order_department>false</work_order_department>
+			<transit>false</transit>
+			<work_order_department>true</work_order_department>
 			<library_id>13641560000541</library_id>
 			<library_unit_id/>
-			<step_type>OUT_OF_LIBRARY</step_type>
+			<step_type>WORK_ORDER</step_type>
 			<user_id/>
 		</work_flow_entity>
 	</request>
+	<request_id>131042300000521</request_id>
+	<request_type>Technical services</request_type>
 	<send_after_commit>true</send_after_commit>
 	<sms_content/>
 	<throw_exceptions>false</throw_exceptions>

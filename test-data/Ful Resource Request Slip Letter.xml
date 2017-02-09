@@ -1,0 +1,222 @@
+<notification_data>
+<attachments_list></attachments_list>
+<destination>Resource Sharing Library</destination> <external_id></external_id> <general_data><address_from>bridden@nomail_university.edu</address_from>
+<current_date>26/11/2014</current_date>
+<letter_channel_info></letter_channel_info>
+<letter_name>Resource Request Slip</letter_name> <letter_type>FulReasourceRequestSlipLetter</letter_type>
+<subject>Resource Request Slip</subject> </general_data> <languages><string>en</string> <string>fr</string> <string>nl</string> </languages> <letter_params></letter_params> <letter_texts></letter_texts> <organization_unit><address><city>Springfield</city> <country>USA</country> <country_display>United States</country_display> <create_date>13/03/2013</create_date>
+<entity_action></entity_action>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+<line1>University Libraries</line1>
+<line2>123 Oakville Street</line2>
+<line3></line3>
+<line4></line4>
+<line5></line5>
+<note></note>
+<originating_id></originating_id>
+<postal_code>02467</postal_code>
+<preferred>true</preferred>
+<segment_types_display><string>Patron Communications</string> </segment_types_display> <state_province>IL</state_province>
+<user_address_types_display></user_address_types_display>
+</address>
+<automatically_activate_locate_profile>false</automatically_activate_locate_profile>
+<automatically_locate_resource>false</automatically_locate_resource>
+<cancel_request_on_locate_failure>false</cancel_request_on_locate_failure>
+<code>ILIN</code>
+<create_date>17/10/2011</create_date>
+<default_acq_loctaion_id>31601400009999</default_acq_loctaion_id>
+<default_item_loctaion_id></default_item_loctaion_id>
+<default_move_loctaion_id></default_move_loctaion_id>
+<default_pickup_loctaion_id></default_pickup_loctaion_id>
+<description></description>
+<edi_code>BOC-BLO</edi_code>
+<edi_type>091</edi_type>
+<email><create_date>07/12/2011</create_date>
+<description></description>
+<email>nosuchmail@nomail_no.such.mail.com</email>
+<entity_action></entity_action>
+<external_id></external_id>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+<originating_id></originating_id>
+<preferred>true</preferred>
+</email>
+<entity_action></entity_action>
+<itemless_library></itemless_library>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+<name>Main Library</name>
+<org_scope><customer_id>9998</customer_id>
+<institution_id>9999</institution_id>
+<library_id>31589510009999</library_id>
+<library_unit_id></library_unit_id>
+</org_scope>
+<organization_id>31589510009999</organization_id>
+<organization_path>9998.9999.31589510009999</organization_path>
+<organization_type>LIBRARY</organization_type>
+<parent_org_id>9999</parent_org_id>
+<path>01UNI.01UNI_INST.ILIN</path>
+<phone><create_date>07/12/2011</create_date>
+<entity_action></entity_action>
+<external_id></external_id>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+<originating_id></originating_id>
+<phone>555-755-0099</phone>
+<preferred>false</preferred>
+<preferred_phone></preferred_phone>
+<preferred_sms></preferred_sms>
+</phone>
+<resource_sharing_library>true</resource_sharing_library>
+<status>ACTIVE</status>
+<support_code></support_code>
+</organization_unit>
+<phys_item_display><accession_number>@nomail_209111</accession_number>
+<alt_call_number_type></alt_call_number_type>
+<attachments></attachments>
+<author></author>
+<barcode></barcode>
+<call_number>DS735 .L47413 1982</call_number> <call_number_type>0</call_number_type>
+<chron_i></chron_i>
+<chron_j></chron_j>
+<chron_k></chron_k>
+<chron_l></chron_l>
+<chron_m></chron_m>
+<copy_id></copy_id>
+<destination_name></destination_name>
+<display_alt_call_numbers></display_alt_call_numbers>
+<edition>1st ed.</edition>
+<enum_a></enum_a>
+<enum_b></enum_b>
+<enum_c></enum_c>
+<enum_d></enum_d>
+<enum_e></enum_e>
+<enum_f></enum_f>
+<enum_g></enum_g>
+<enum_h></enum_h>
+<fulfillment_note></fulfillment_note>
+<imprint>Beijing : Foreign Languages Press 1982.</imprint> <internal_note1></internal_note1> <internal_note2></internal_note2> <internal_note3></internal_note3> <inventory_material_type></inventory_material_type>
+<isbn>0835109852 (pbk.)</isbn>
+<issn></issn>
+<issue_level_description></issue_level_description>
+<library_code></library_code>
+<library_name></library_name>
+<location_code>KC_STACK</location_code>
+<location_name>Offsite Collection (K-C STACK)</location_name> <material_type>Book</material_type>
+<owning_library_details><address1>University Libraries</address1>
+<address2>123 Oakville Street</address2> <address3></address3> <address4></address4> <address5></address5> <city>Springfield</city> <country>USA</country> <email>nosuchmail@nomail_no.such.mail.com</email>
+<identifiers></identifiers>
+<name>Main Library</name>
+<phone>617-552-8038 </phone>
+<postal_code>02467</postal_code>
+<state>IL</state>
+<title></title>
+<user_group></user_group>
+</owning_library_details>
+<owning_library_id>31589510009999</owning_library_id>
+<owning_library_name>Main Library</owning_library_name>
+<parsed_alt_call_number></parsed_alt_call_number>
+<parsed_call_number></parsed_call_number>
+<parsed_issue_level_description></parsed_issue_level_description>
+<permanent_library></permanent_library>
+<permanent_location></permanent_location>
+<public_note></public_note>
+<publication_date>1982.</publication_date>
+<publication_place>Beijing :</publication_place> <publisher>Foreign Languages Press</publisher> <row_call_number></row_call_number>
+<shelving_location></shelving_location>
+<title>History /</title>
+<title_abcnph>History / compiled by the China Handbook Editorial Committee ; translated by Dun J. Li.</title_abcnph> </phys_item_display> <receivers><receiver><attached_to_entity_id>4415890880009999</attached_to_entity_id>
+<params></params>
+<printer><code>ILINPRINT2</code>
+<create_date>11/07/2012</create_date>
+<description></description>
+<email>libholds@nomail_university.edu</email>
+<entity_action></entity_action>
+<library_id>31589510009999</library_id>
+<library_unit_id></library_unit_id>
+<name>Main Library Pick List Printer</name>
+</printer>
+<receiver_id></receiver_id>
+<receiver_type></receiver_type>
+<receiver_type_class>com.exlibris.core.infra.model.HPrinter</receiver_type_class>
+</receiver>
+</receivers>
+<request><active>true</active>
+<all_org_fields></all_org_fields>
+<assigned_unit_name>Main Library - Default Circulation Desk</assigned_unit_name> <bulk_request>false</bulk_request>
+<calculated_destination_name>Resource Sharing Library</calculated_destination_name>
+<cancel_reason></cancel_reason>
+<cause_for_recalled_item>false</cause_for_recalled_item>
+<create_date>26/11/2014</create_date>
+<create_time>21:13:45 PM IST</create_time> <deposit_indicator></deposit_indicator>
+<document_delivery_email></document_delivery_email>
+<due_back_date_updated>false</due_back_date_updated>
+<end_time></end_time>
+<end_time_dummy></end_time_dummy>
+<entity_action></entity_action>
+<last_interest_date>03/12/2014</last_interest_date>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+<manual_description></manual_description>
+<material_type_display></material_type_display>
+<needs_hold_shelf_processing>false</needs_hold_shelf_processing>
+<pickup>false</pickup>
+<note>Comment</note>
+<original_end_time></original_end_time>
+<original_start_time></original_start_time>
+<originating_mms_key></originating_mms_key>
+<originating_user_key></originating_user_key>
+<partial_digitization></partial_digitization>
+<remote_digitize_indicator></remote_digitize_indicator>
+<request_not_needed>false</request_not_needed>
+<resource_sharing_request_id></resource_sharing_request_id>
+<resource_slip_printed>false</resource_slip_printed>
+<resource_slip_reported>false</resource_slip_reported>
+<search_type>PHYSICAL_TITLE</search_type>
+<selected_inventory_id>22311150390009999</selected_inventory_id>
+<selected_inventory_type>HOLDING</selected_inventory_type>
+<start_time></start_time>
+<start_time_dummy></start_time_dummy>
+<status_note></status_note>
+<status_note_display></status_note_display>
+<system_notes></system_notes>
+<volume_issue></volume_issue>
+<work_flow_entity><action_date>26/11/2014</action_date>
+<assigned_unit_id>31589530009999</assigned_unit_id>
+<assigned_unit_type>CIRCULATION_DESK</assigned_unit_type>
+<calculated_destination_id>12900830009999</calculated_destination_id>
+<calculated_destination_type>LIBRARY</calculated_destination_type>
+<create_date>26/11/2014</create_date>
+<entity_action></entity_action>
+<estimated_arrival_date></estimated_arrival_date>
+<expiration_date>30/11/2014</expiration_date>
+<expiration_date_to_end_of_day></expiration_date_to_end_of_day>
+<transit>false</transit>
+<work_order_department>false</work_order_department>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+<step_type>PICKUP_FROM_SHELF</step_type>
+<user_id>14430360160009999</user_id>
+</work_flow_entity>
+</request>
+<request_type>Patron physical item request</request_type> <send_after_commit>true</send_after_commit>
+<throw_exceptions>false</throw_exceptions>
+<url_list></url_list>
+<user_for_printing><address1></address1>
+<address2></address2>
+<address3></address3>
+<address4></address4>
+<address5></address5>
+<city></city>
+<country></country>
+<email>auto.tester.mail@nomail.com</email>
+<identifiers></identifiers>
+<name>Tester, Automatic</name>
+<phone>0544444444</phone>
+<postal_code></postal_code>
+<state></state>
+<title>GeneralAdministrator</title>
+<user_group>08</user_group>
+</user_for_printing>
+</notification_data>
