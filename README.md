@@ -3,6 +3,13 @@ This is a collection of the XSL files used to generate letters and slips in
 Alma.  In general, we try to
 make the files re-usable by others, but we fail in some cases.
 
+## NOTE THAT NOT ALL FILES IN THIS REPOSITORY NEED TO BE CUSTOMIZED
+ 
+ -- As of this writing only a few files have been modified.
+
+![alt tag](https://github.com/CSU-ULMS/CSU-Alma-Letters/blob/master/DraftXSLTCustomization_Overdue.pdf)
+
+
 ## Overview of the .xsl files
 
 Descriptions for the letters can be found in [Ex Libris Knowledge Base](http://knowledge.exlibrisgroup.com/Alma/Product_Documentation/Alma_Online_Help_%28English%29/Administration/Configuring_General_Alma_Functions/Configuring_Alma_Letters#Letter_Types).
