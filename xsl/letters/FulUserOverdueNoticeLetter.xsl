@@ -86,7 +86,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
         </div>
 
 <!--IN THIS SECTION YOU CAN ADD INFORMATION ON RENEWING ITEMS -->
-
+<!--- CUSTOMIZE THIS SECTION FOR YOUR OWN INSTITUTION -->
 	
 <h3>Renewing Items:</h3>
 <p>
