@@ -8,8 +8,13 @@ make the files re-usable by others, but we fail in some cases.
  -- As of this writing only a few files have been modified.
 
 #Sample XSLT/Letters Customization.
-This document shows an example of a customization that was made to one of the letters that gets sent from Alma.
+Below is an example of an overdue notice before any customizations.
 Figure 1: Pre-Customization Letter.
+![Pre-customized letter](/PreCustomized.png)
+
+Figure 2: Post-Customization Letter.
+Note: the enlarged font, the changed greeting and the notes on the bottom.
+![Post-customized letter](/PostCustomized.png)
 
 
 ## Overview of the .xsl files
