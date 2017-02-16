@@ -6,6 +6,8 @@ make the files re-usable by others, but we fail in some cases.
 ## NOTE THAT NOT ALL FILES IN THIS REPOSITORY NEED TO BE CUSTOMIZED
  
  -- As of this writing only a few files have been modified.
+ -- XML letters to test customizations can be found on the Ex Libris Developer's site: https://developers.exlibrisgroup.com/blog/Alma-letters-XML-samples-for-working-on-XSL-customization
+
 
 #Sample XSLT/Letters Customization.
 Below is an example of an overdue notice before any customizations.
