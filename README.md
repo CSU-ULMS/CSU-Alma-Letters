@@ -7,7 +7,9 @@ make the files re-usable by others, but we fail in some cases.
  
  -- As of this writing only a few files have been modified.
 
-![alt tag](https://github.com/CSU-ULMS/CSU-Alma-Letters/blob/master/DraftXSLTCustomization_Overdue.pdf)
+#Sample XSLT/Letters Customization.
+This document shows an example of a customization that was made to one of the letters that gets sent from Alma.
+Figure 1: Pre-Customization Letter.
 
 
 ## Overview of the .xsl files
