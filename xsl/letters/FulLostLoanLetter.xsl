@@ -1,74 +1,116 @@
 <?xml version="1.0" encoding="utf-8"?>
-<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+<xsl:stylesheet version="1.0"
+xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
 <xsl:include href="header.xsl" />
 <xsl:include href="senderReceiver.xsl" />
-<xsl:include href="mailReason.xsl"/>
 <xsl:include href="footer.xsl" />
 <xsl:include href="style.xsl" />
 
 <xsl:template match="/">
-  <xsl:call-template name="email-template"/><!-- header.xsl -->
-</xsl:template>
+	<html>
+		<head>
+		<xsl:call-template name="generalStyle" />
+		</head>
 
-<xsl:template match="/notification_data">
+			<body>
+			<xsl:attribute name="style">
+				<xsl:call-template name="bodyStyleCss" /> <!-- style.xsl -->
+			</xsl:attribute>
 
-  <xsl:call-template name="emailLogo"/><!-- mailReason.xsl -->
-  <xsl:call-template name="toWhomIsConcerned"/><!-- mailReason.xsl -->
+				<xsl:call-template name="head" /> <!-- header.xsl -->
+				<xsl:call-template name="senderReceiver" /> <!-- SenderReceiver.xsl -->
 
-  <p>
-     @@inform_you_item_below@@.
-  </p>
+				<br />
 
-  <div style="margin: 0.8em 1.2em;">
-    <em><xsl:value-of select="phys_item_display/title_abcnph"/></em><br />
-    @@description@@: <xsl:value-of select="item_loan/description"/>
-    <br />
-    @@library@@: <xsl:value-of select="organization_unit/name"/>
-    <br />
-    @@loan_date@@: <xsl:value-of select="item_loan/loan_date"/>
-    <br />
-    @@due_date@@: <xsl:value-of select="item_loan/due_date"/>
-    <br />
-    @@barcode@@: <xsl:value-of select="item_loan/barcode"/>
-  </div>
 
-  <p>
-    @@charged_with_fines_fees@@
-  </p>
+				<table cellspacing="0" cellpadding="5" border="0">
+				<tr>
+				<td>
+					<h>@@inform_you_item_below@@ </h>
+					<h>@@borrowed_by_you@@ @@decalred_as_lost@@</h>
+				</td>
+				</tr>
+				</table>
 
-  <table cellpadding="5" cellspacing="0" class="listing" width="100%">
-    <tr>
-      <th align="left">@@fee_type@@</th>
-      <th align="right">@@fee_amount@@</th>
-      <th align="left"></th>
-    </tr>
-    <xsl:for-each select="fines_fees_list/user_fines_fees">
-      <tr>
-        <td><xsl:value-of select="fine_fee_type_display"/></td>
-        <td align="right"><xsl:value-of select="fine_fee_ammount/sum"/>&#160;<xsl:value-of select="fine_fee_ammount/currency"/></td>
-        <td><xsl:value-of select="ff"/></td>
-      </tr>
-    </xsl:for-each>
-  </table>
+				<table cellpadding="5" class="listing">
+				<xsl:attribute name="style">
+					<xsl:call-template name="mainTableStyleCss" /> <!-- style.xsl -->
+				</xsl:attribute>
 
-  <p>
-    <xsl:choose>
-      <xsl:when test="receivers/receiver/preferred_language = 'no'">
-        Du kan betale i biblioteket eller med
-      </xsl:when>
-      <xsl:when test="receivers/receiver/preferred_language = 'nn'">
-        Du kan betale i biblioteket eller med
-      </xsl:when>
-      <xsl:otherwise>
-        You can pay at the library or with
-      </xsl:otherwise>
-    </xsl:choose>
-    <a><xsl:attribute name="href">https://epay.uio.no/pay/shop/order-create.html?projectStepId=5203685</xsl:attribute>E-pay</a>.
-  </p>
+				<xsl:for-each select="notification_data">
+				<table>
+					<tr>
+						<td>
+						<b>@@lost_item@@ :</b> <xsl:value-of select="item_loan/title"/>
+						<br />
+						<b>@@description@@ :</b><xsl:value-of select="item_loan/description"/>
+						<br />
+						<b> @@by@@ :</b><xsl:value-of select="item_loan/author"/>
+						<br />
+						<b>@@library@@ :</b><xsl:value-of select="organization_unit/name"/>
+						<br />
+						<b>@@loan_date@@ :</b><xsl:value-of select="item_loan/loan_date"/>
+						<br />
+						<b>@@due_date@@ :</b><xsl:value-of select="item_loan/due_date"/>
+						<br />
+						<b>@@barcode@@ :</b><xsl:value-of select="item_loan/barcode"/>
+						<br />
+						<b>@@call_number@@ :</b><xsl:value-of select="phys_item_display/call_number"/>
+						<br />
+						<b>@@charged_with_fines_fees@@ </b>
+						</td>
+					</tr>
+				</table>
+				</xsl:for-each>
 
-  <xsl:call-template name="email-footer"/><!-- footer.xsl -->
-  <xsl:call-template name="myAccount" /> <!-- footer.xsl -->
+				<table cellpadding="5" class="listing">
+				<xsl:attribute name="style">
+					<xsl:call-template name="mainTableStyleCss" /> <!-- style.xsl -->
+				</xsl:attribute>
+					<tr>
+						<th>@@fee_type@@</th>
+						<th>@@fee_amount@@</th>
+						<th>@@note@@</th>
+					</tr>
+					<xsl:for-each select="notification_data/fines_fees_list/user_fines_fees">
+					<tr>
+						<td><xsl:value-of select="fine_fee_type_display"/></td>
+						<td><xsl:value-of select="fine_fee_ammount/sum"/>&#160;<xsl:value-of select="fine_fee_ammount/currency"/></td>
+						<td><xsl:value-of select="ff"/></td>
+					</tr>
+					</xsl:for-each>
 
+				</table>
+				<br />
+				<br />
+				@@additional_info_1@@
+				<br />
+				@@additional_info_2@@
+				<br />
+				<table>
+
+						<tr><td>@@sincerely@@</td></tr>
+						<tr><td>@@department@@</td></tr>
+
+				</table>
+				</table>
+<!-- Send a message only to undergraduates about returning books. -->
+<xsl:choose>
+<xsl:when test="notification_data/item_loan/user_type='UNDERGRADUATE'">
+<h><b>A HOLD has been placed on your academic record until the item is returned and/or all charges on your library record are paid.</b></h>
+     </xsl:when>
+                           <xsl:otherwise> 
+                              <h><b>Please contact us if you have questions or need assistance.</b></h>
+                           </xsl:otherwise> 
+</xsl:choose> 
+
+				<br />
+
+				<xsl:call-template name="lastFooter" /> <!-- footer.xsl -->
+			</body>
+	</html>
 </xsl:template>
 
 </xsl:stylesheet>
